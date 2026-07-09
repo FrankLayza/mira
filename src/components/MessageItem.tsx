@@ -20,7 +20,7 @@ export function MessageItem({ message, isMiraThinking }: MessageItemProps) {
   }
 
   return (
-    <div className="flex gap-3.5 items-start max-w-[90%] md:max-w-[80%] animate-fade-in-up">
+    <div className="flex gap-3.5 items-start max-w-[96%] md:max-w-[80%] animate-fade-in-up">
       {/* Avatar - Refined slate design instead of bright gradient */}
       <div className="shrink-0 select-none">
         <div
