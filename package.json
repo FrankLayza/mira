@@ -11,7 +11,7 @@
   "dependencies": {
     "@huggingface/inference": "^4.13.15",
     "groq-sdk": "^0.8.0",
-    "next": "15.3.2",
+    "next": "15.3.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
