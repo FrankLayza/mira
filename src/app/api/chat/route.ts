@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
   try {
     // Step 4: Stream the LLM response
     const stream = await groq.chat.completions.create({
-      model: "llama-3.1-8b-instant",
+      model: "openai/gpt-oss-20b",
       messages: groqMessages,
       stream: true,
       max_tokens: 512,
